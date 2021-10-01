@@ -1,0 +1,127 @@
+
+body{
+    margin: 0 auto;
+    width: 100vw;
+    background-color: whitesmoke;
+ 
+}
+
+.header{
+  display: flex;
+  padding: 5px;
+  max-height: 300px;
+  min-height: 250px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header img{
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background: #161922;
+  padding: 5px;
+  max-height: 100px;
+  min-height: 50px;
+  justify-content: center;
+}
+
+
+
+#searchbar{
+    height: 20%;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    max-height: 45px;
+    min-height: 45px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    padding: 2px;
+    
+}
+
+#searchbar img{
+  padding: 2px;
+  justify-content: space-around;
+}
+
+.top{
+ justify-content: space-evenly;
+ padding: 10px;
+}
+
+.weatherwidget-io{
+
+}
+
+a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  color:whitesmoke; 
+}
+
+a:visited { 
+  text-decoration: none; 
+ }
+
+a:hover{
+  text-decoration: none; 
+  color:grey;
+}
+
+.main{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-inline-start: 1px;
+  padding: 3px;
+  
+}
+
+.main img{
+  display: flex;
+
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  max-height: 300px;
+  min-height: 300px;
+  justify-content: center;
+
+}
+
+.row img{
+  padding: 20px;
+}
+
+iframe{
+  display:flex;
+  justify-content: left;
+  margin: auto;
+  padding:10px;
+  align-items: left;
+}
+
+h1{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+li{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.icons{
+  justify-content: center;
+  align-items: center'
+}
