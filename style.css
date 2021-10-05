@@ -122,6 +122,40 @@ li{
 }
 
 .icons{
+  display: flex;
+  align-items: center;
+  padding: 65px;
+  max-height: 300px;
+  min-height: 300px;
   justify-content: center;
-  align-items: center'
+}
+
+.icons img{
+  padding: 5px;
+}
+
+
+.socials {
+  text-align: center;
+}
+
+
+.socials ul {
+  list-style-type: none;
+  padding: 0;
+}
+.socials li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.socials button {
+  background: red;
+  border: 0px;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 700;
+  font-family: 'Open Sans';
+}
+.socials button:hover {
+  cursor: pointer;
 }
