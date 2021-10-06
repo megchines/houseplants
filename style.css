@@ -56,9 +56,6 @@ header img{
  padding: 10px;
 }
 
-.weatherwidget-io{
-
-}
 
 a{
   font-family: 'Libre Franklin', sans-serif;
@@ -134,11 +131,9 @@ li{
   padding: 5px;
 }
 
-
 .socials {
   text-align: center;
 }
-
 
 .socials ul {
   list-style-type: none;
@@ -159,3 +154,54 @@ li{
 .socials button:hover {
   cursor: pointer;
 }
+ 
+
+/* ======= CAROUSEL SECTION ======== */
+.carousel{
+  overflow: hidden;
+  max-width: 600px;
+  position:relative;
+  margin: auto;
+}
+.carousel .carousel_item,
+.carousel .carousel_item--hidden {
+  display:none;
+}
+.carousel .carousel_item img{
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+.carousel .carousel_item--visible{
+  display: block;
+}
+
+.carousel .carousel_actions{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.carousel .carousel_actions button {
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+
+}
+
+.carousel .carousel_actions button#carousel_button--prev{
+  margin-left: 20px;
+}
+
+.carousel .carousel_actions button#carousel_button--next{
+  margin-right: 20px;
+}
+
