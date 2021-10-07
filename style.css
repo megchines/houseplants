@@ -3,7 +3,6 @@ body{
     margin: 0 auto;
     width: 100vw;
     background-color: whitesmoke;
- 
 }
 
 .header{
@@ -76,7 +75,7 @@ a:hover{
   justify-content: space-around;
   padding-inline-start: 1px;
   padding: 3px;
-  
+  margin: auto;
 }
 
 .main img{
@@ -91,7 +90,6 @@ a:hover{
   max-height: 300px;
   min-height: 300px;
   justify-content: center;
-
 }
 
 .row img{
@@ -165,7 +163,6 @@ li{
   max-width: 600px;
   position:relative;
   margin: auto;
- 
 }
 
 /* ======= CAROUSEL SECTION ======== */
@@ -207,7 +204,6 @@ li{
   width: 40px;
   height: 40px;
   margin: 0 20px;
-
 }
 
 .carousel .carousel_actions button#carousel_button--prev{
@@ -222,7 +218,6 @@ footer{
   height: 100px;
   background:whitesmoke;
   text-align: center;
-
 }
 
 .budget a{
@@ -239,3 +234,10 @@ footer p{
   display: flex;
   justify-content: center;
 }
+
+@media screen and (min-width: 400px) (max-width:1024px) {
+  body {
+    background-color:whitesmoke;
+  }
+}
+
