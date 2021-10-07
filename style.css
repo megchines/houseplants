@@ -132,29 +132,6 @@ li{
   padding: 5px;
 }
 
-.socials {
-  text-align: center;
-}
-
-.socials ul {
-  list-style-type: none;
-  padding: 0;
-}
-.socials li {
-  display: inline-block;
-  padding: 0px 10px;
-}
-.socials button {
-  background: red;
-  border: 0px;
-  padding: 10px;
-  color: whitesmoke;
-  font-weight: 700;
-  font-family: 'Open Sans';
-}
-.socials button:hover {
-  cursor: pointer;
-}
  
 /* Media page*/
 
@@ -163,6 +140,7 @@ li{
   max-width: 600px;
   position:relative;
   margin: auto;
+  justify-content: space-evenly;
 }
 
 /* ======= CAROUSEL SECTION ======== */
@@ -241,3 +219,9 @@ footer p{
   }
 }
 
+li a{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  color:black;
+
+}
